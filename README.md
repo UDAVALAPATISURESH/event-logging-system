@@ -5,6 +5,11 @@ An event logging system designed to handle, store, and query logs securely using
 
 ---
 
+Demo Video
+For a quick overview, watch the Demo Video.
+
+---
+
 ## **Features**
 1. **Event Logging API**: 
    - Store event logs with secure hash chaining to prevent tampering.
