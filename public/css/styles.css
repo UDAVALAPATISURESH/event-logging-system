@@ -1,0 +1,117 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+
+h1 {
+    text-align: center;
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    margin: 0;
+    font-size: 2.5em;
+    text-transform: uppercase;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 20px;
+    color: #333;
+}
+
+
+form {
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+form input, 
+form textarea {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+form textarea {
+    height: 100px;
+    resize: none;
+}
+
+form button {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: #45a049;
+}
+
+
+#loadLogs {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#loadLogs:hover {
+    background-color: #0056b3;
+}
+
+#eventLogs {
+    max-width: 700px;
+    margin: 20px auto;
+    padding: 0;
+    list-style-type: none;
+}
+
+#eventLogs li {
+    background: white;
+    margin-bottom: 10px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#eventLogs li:hover {
+    background: #f9f9f9;
+}
+
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #4CAF50;
+    color: white;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    font-size: 0.9em;
+}

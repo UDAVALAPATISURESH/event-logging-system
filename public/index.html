@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Logging System</title>
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+    <h1>Event Logging System</h1>
+
+    <h2>Log an Event</h2>
+    <form id="logEventForm">
+        <input type="text" id="eventType" placeholder="Event Type" required><br>
+        <input type="text" id="sourceAppId" placeholder="Source App ID" required><br>
+        <textarea id="data" placeholder="Event Data (JSON format)" required></textarea><br>
+        <button type="submit">Log Event</button>
+    </form>
+
+    <h2>Event Logs</h2>
+    <button id="loadLogs">Load Event Logs</button>
+    <ul id="eventLogs"></ul>
+
+    <script src="/js/app.js"></script>
+    <script src="./scripts.js"></script>
+
+</body>
+</html>
