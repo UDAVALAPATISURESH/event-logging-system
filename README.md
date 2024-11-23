@@ -6,7 +6,7 @@ An event logging system designed to handle, store, and query logs securely using
 ---
 
 Demo Video
-For a quick overview, watch the Demo Video.
+For a quick overview, watch the [Demo Video.](https://drive.google.com/file/d/1yUBBTNDSBKNjtDLaMEKOvGzOPhsdqL9t/view?usp=drive_link)
 
 ---
 
